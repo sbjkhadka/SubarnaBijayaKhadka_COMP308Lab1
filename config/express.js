@@ -37,7 +37,7 @@ module.exports = () => {
     app.engine('html', require('ejs').renderFile);
 
     // Configure static file serving __dirname + '/../app'
-    app.use(express.static('../public'))
+    app.use(express.static('./public'))
     
 
     // Load index routing file
