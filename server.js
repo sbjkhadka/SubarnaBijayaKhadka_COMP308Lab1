@@ -1,5 +1,9 @@
+// Configure environment
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
 // Configure PORT
 const PORT = 3000;
+
 // Load express module
 const configureServer = require('./config/express')
 
