@@ -12,5 +12,18 @@ body {
   border: 2px solid #2222aa;
   border-radius: 10px;
   background-color: lavender;
+}
+.border-style {
+  border: 2px solid #2222aa;
+  border-radius: 10px;
+  background-color: lavender;
   height: 80%;
+}
+a {
+  text-decoration: none;
+  color: lavender;
+}
+a:hover {
+  text-decoration: none;
+  color: lavender;
 }
